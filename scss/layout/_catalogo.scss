@@ -1,0 +1,42 @@
+
+.main-catalogo{
+    background-color: #456C83;
+}
+.shop-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+ .text-shop-now{
+    text-decoration: none;
+    color: #456C83;
+    font-size: 2rem;
+}
+.boton-edit{
+    width: 20rem;
+    height: 9rem;
+    color: #F4D7D3;
+    border-color: #7DB9B6;
+    box-shadow: #7DB9B6;
+    border-radius: 2rem;
+    border-width: 0.2rem;
+}
+.carrusel-mobil{
+    display: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.carrusel-mobil{
+    opacity: 0;
+    animation: fade-in 2s ease forwards;
+}
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }

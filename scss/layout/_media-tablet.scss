@@ -1,0 +1,149 @@
+@media (max-width:768px){
+    .desaparecer{
+        display: none;
+    }
+    .redes-dropdown{
+        display: none;
+    }
+    .main-index{
+        background-image: url(../assets/img/fondotablet.jpg);
+        width: 100%;
+        height: 40rem;
+    }
+    /* catalogo */
+    .text-shop-now{
+        font-size: 1.5rem;
+    }
+    .boton-edit{
+        width: 13rem;
+        height: 6rem;
+    }
+
+    .main-nosotros{
+        background-color: $color;
+        background-image: url();
+        padding: 0% 5% 5% 5%;
+        width: 100%;
+        height: 750px;
+        background-position: center;
+        background-position-y: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /* beneficio */
+    .main-beneficio{
+        background-color: $color;
+        width: 100%;
+        height: 35rem;
+        section{
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                margin-top: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+            }
+        }
+    }
+    .lee{
+        font-family: 'Gowun Dodum', sans-serif;
+        font-size: 1.2rem;
+        color: $color;
+        text-decoration: none;
+        text-align: center;
+    }
+    .cuadrado-fast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        width: 30rem;
+        height: 5rem;
+        background-color: $color-dos ; 
+    }
+    /* nosotros */
+    .main-nosotros{
+        background-image: url(../assets/img/amigas-mobile.json);
+        width: 100%;
+        height: 40rem;
+        .titulo-quien{
+            width: 100%;
+            height: 5rem;
+            font-size: 3rem;
+            margin-top: 25px;
+        }
+        div{
+            p{
+                margin-top: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+                text-align: center;
+            }
+        }
+    }
+
+    .main-fast{
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            margin-top: 2.5rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            text-indent: 20px; 
+        }
+        article{
+            div{
+                margin-top: 2rem;
+                width: 650px;
+                height: 100px;
+                ul{
+                    li{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .main-flex-pp{
+        div{
+            h1{
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width:425px){
+    nav{
+        display: none;
+    }
+    .desaparecer{
+        display: block;
+    }
+    .main-index{
+        background-image: url(../assets/img/fondomedio.jpg);
+        width: 100%;
+        height: 50rem;
+    }
+    .titulo{
+        font-size: 4.5rem;
+    }
+    .subtitulo{
+        font-size: 2rem;
+    }
+    .text-shop-now{
+        font-size: 0.5;
+    }
+    .carrusel-media{
+        display: none;
+    }
+}

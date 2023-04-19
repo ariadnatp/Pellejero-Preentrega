@@ -1,0 +1,78 @@
+/* beneficio*/
+.main-beneficio{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: $color;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    section{
+        h1{
+            color: antiquewhite;
+            font-family: 'Gowun Dodum', sans-serif;
+            font-size: 5rem;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            margin-top: 2.5rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            color: #e2e0e0;
+            font-family: 'Gowun Dodum', sans-serif;
+            font-size: 1.2rem;
+            position: center;
+            text-indent: 20px;
+        }
+    }
+}
+.lee{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 2rem;
+    color: $color;
+    text-align: end;
+    text-decoration: none;
+}
+.subrayado:hover{
+    color: $color-tres;
+}
+.cuadrado-fast{
+    margin-top: 3rem;
+    width: 50rem;
+    background-color: $color-dos ; 
+}
+.img-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+h1 {
+    opacity: 0;
+    animation: fade-in 3s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
+
+p {
+    opacity: 0;
+    animation: fade-in 2s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
