@@ -114,7 +114,7 @@ footer {
 /* index */
 .main-index {
   background-color: #456C83;
-  background-image: url(../assets/img/fondoo.jpg);
+  background-image: url(https://i.postimg.cc/HncjM3cB/fondoo.jpg);
   padding: 0% 5% 5% 5%;
   width: 100%;
   height: 700px;
@@ -148,6 +148,7 @@ footer {
 }
 
 .shop-now {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,10 +195,10 @@ button:hover {
 }
 .main-nosotros {
   background-color: #456C83;
-  background-image: url(../../assets/img/amigas.jpg);
+  background-image: url(https://i.postimg.cc/R0ptygtL/amigas.jpg);
   padding: 0% 5% 5% 5%;
   width: 100%;
-  height: 70rem;
+  height: 58rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
@@ -210,7 +211,7 @@ button:hover {
   align-items: center;
 }
 .main-nosotros .div-quien {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .main-nosotros .div-quien h1 {
   display: flex;
@@ -289,6 +290,7 @@ p {
   background-repeat: no-repeat;
 }
 .main-beneficio section h1 {
+  padding-top: 120px;
   color: antiquewhite;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 5rem;
@@ -300,6 +302,7 @@ p {
   align-items: center;
 }
 .main-beneficio section p {
+  padding-top: 20px;
   margin-top: 2.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -393,39 +396,6 @@ p {
   text-indent: 20px;
 }
 
-.artcle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.artcle div {
-  margin-top: 2rem;
-  background-color: #D9D9D9;
-  background-position: center;
-  width: 800px;
-  height: 100px;
-}
-.artcle div ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.artcle div ul li {
-  font-family: "Gowun Dodum", sans-serif;
-  color: #456C83;
-  text-decoration: line;
-  color: #456C83;
-  font-size: 1.5rem;
-  position: center;
-}
-
-.decoration-none {
-  text-decoration: none;
-  color: #456C83;
-}
-
 h1 {
   opacity: 0;
   animation: fade-in 3s ease forwards;
@@ -454,12 +424,14 @@ p {
 }
 
 .card {
-  width: 80%;
+  margin: 5% 5% 5% 5%;
+  width: 100%;
   height: 100rem;
 }
 
 .main-flex-pp {
   background-color: #456C83;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -469,19 +441,23 @@ p {
   align-items: center;
 }
 .main-flex-pp div {
-  width: auto;
-  height: 41rem;
-}
-.main-flex-pp div h1 {
-  width: 100%;
-  height: 30rem;
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 6rem;
-  color: #F4D7D3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.main-flex-pp div h1 {
+  padding-top: 120px;
+  width: 100%;
+  height: 30rem;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 4rem;
+  color: #F4D7D3;
+}
+.main-flex-pp div h2 {
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 2rem;
+  color: #F4D7D3;
 }
 
 @media (max-width: 2560px) {
@@ -505,7 +481,7 @@ p {
     display: none;
   }
   .main-index {
-    background-image: url(../assets/img/fondotablet.jpg);
+    background-image: url(https://i.postimg.cc/ZRDC0XRW/fondotablet.jpg);
     width: 100%;
     height: 40rem;
   }
@@ -523,32 +499,30 @@ p {
     padding: 0% 5% 5% 5%;
     width: 100%;
     height: 200rem;
-    /* beneficio */
-    /* nosotros */
   }
-  .main-nosotros .main-beneficio {
-    background-color: #456C83;
+  /* beneficio */
+  .main-beneficio {
     width: 100%;
     height: 35rem;
   }
-  .main-nosotros .main-beneficio section h1 {
+  .main-beneficio section h1 {
     font-size: 3rem;
   }
-  .main-nosotros .main-beneficio section p {
+  .main-beneficio section p {
     margin-top: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
     text-indent: 5px;
   }
-  .main-nosotros .lee {
+  .lee {
     font-family: "Gowun Dodum", sans-serif;
     font-size: 1.2rem;
     color: #456C83;
     text-decoration: none;
     text-align: center;
   }
-  .main-nosotros .cuadrado-fast {
+  .cuadrado-fast {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -558,33 +532,34 @@ p {
     height: 5rem;
     background-color: #F4D7D3;
   }
-  .main-nosotros .main-nosotros {
-    background-image: url(../assets/img/amigas-mobile.json);
-    height: 30px;
+  /* nosotros */
+  .main-nosotros {
+    width: 100%;
+    height: 90rem;
   }
-  .main-nosotros .main-fast h1 {
+  .main-fast h1 {
     font-size: 5rem;
   }
-  .main-nosotros .main-fast p {
+  .main-fast p {
     margin-top: 2.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 1.2rem;
     text-indent: 20px;
   }
-  .main-nosotros .main-fast article div {
+  .main-fast article div {
     margin-top: 2rem;
     width: 650px;
     height: 100px;
   }
-  .main-nosotros .main-fast article div ul li {
+  .main-fast article div ul li {
     font-size: 1.2rem;
   }
-  .main-nosotros .main-flex-pp div h1 {
+  .main-flex-pp div h1 {
     font-size: 4rem;
   }
 }
-@media (max-width: 768px) and (max-width: 425px) {
+@media (max-width: 425px) {
   nav {
     display: none;
   }
@@ -620,7 +595,7 @@ p {
     display: block;
   }
   .main-index {
-    background-image: url(../assets/img/fondomobile.jpg);
+    background-image: url(https://i.postimg.cc/pTdmWP2N/fondomedio.jpg);
     margin: 0px 0px 0px 0px;
     width: 100%;
     height: 50rem;
@@ -649,12 +624,11 @@ p {
   /* nosotros */
   .main-nosotros {
     background-color: #456C83;
-    background-image: url(../asset/amigas-mobile.jpg);
     padding: 0% 5% 5% 5%;
     width: 100%;
-    height: 90rem;
+    height: 80rem;
     background-position: center;
-    background-position-y: 50%;
+    background-position-y: 0%;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -724,18 +698,6 @@ p {
     margin-right: 1rem;
     font-size: 1rem;
     text-indent: 5px;
-  }
-  .main-fast article div {
-    margin-top: 2rem;
-    width: 300px;
-    height: 100px;
-  }
-  .main-fast article div ul li {
-    font-size: 1rem;
-  }
-  .main-fast .texto-articulo {
-    height: 20px;
-    width: 20px;
   }
   .main-flex-pp div h1 {
     font-size: 2rem;

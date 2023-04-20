@@ -13,3 +13,4 @@ ELEMENTOS EMPLEADOS PARA LA CREACIÓN DE LA PAGINA WEB:
 PAGINAS RESPONSIVE:
 1. index.html
 2. catalogo.html
+3. nosotros.html
