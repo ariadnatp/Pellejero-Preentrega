@@ -41,29 +41,34 @@
         background-image: url(../asset/amigas-mobile.jpg);
         padding: 0% 5% 5% 5%;
         width: 100%;
-        height: 68rem;
+        height: 90rem;
         background-position: center;
         background-position-y: 50%;
         background-size: contain;
         background-repeat: no-repeat;
-        .titulo-quien{
-            width: 100%;
-            height: 5rem;
-            color: white;
-            font-family: 'Gowun Dodum', sans-serif;
-            font-size: 1.6rem;
-            background-color: #e2e0e0 ;
-            margin-top: 25px;
-        }
-        div{
-            p{
-                margin-top: 0.5rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
-                font-size: 1rem;
-                text-indent: 5px;
+        .div-quien{
+              h1{
+                width: 100%;
+                height: 5rem;
+                font-size: 2rem;
+              }
+          }
+          div{
+            h2{
+              width: 10.9rem;
+              height: 5rem;
+              font-size: 1.5rem;
             }
-        }
+            p{
+                padding-bottom: 5px;
+                  margin-top: 1.5rem;
+                  margin-left: 1rem;
+                  margin-right: 1rem;
+                  font-size: 1rem;
+                  position: center;
+                  text-indent: 10px;
+              }
+          }
     }
     /* beneficio */
     .main-beneficio{
@@ -141,3 +146,24 @@
         }
     }
 }
+h1 {
+    opacity: 0;
+    animation: fade-in 3s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
+
+p {
+    opacity: 0;
+    animation: fade-in 2s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }

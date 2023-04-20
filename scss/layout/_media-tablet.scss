@@ -21,15 +21,11 @@
 
     .main-nosotros{
         background-color: $color;
-        background-image: url();
+        background-image: url(../asset/amigas-mobile.jpg);
         padding: 0% 5% 5% 5%;
         width: 100%;
-        height: 750px;
-        background-position: center;
-        background-position-y: 50%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+        height: 200rem;
+
     /* beneficio */
     .main-beneficio{
         background-color: $color;
@@ -68,24 +64,7 @@
     /* nosotros */
     .main-nosotros{
         background-image: url(../assets/img/amigas-mobile.json);
-        width: 100%;
-        height: 40rem;
-        .titulo-quien{
-            width: 100%;
-            height: 5rem;
-            font-size: 3rem;
-            margin-top: 25px;
-        }
-        div{
-            p{
-                margin-top: 2rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
-                font-size: 1rem;
-                text-indent: 5px;
-                text-align: center;
-            }
-        }
+        height: 30px;
     }
 
     .main-fast{
@@ -146,4 +125,5 @@
     .carrusel-media{
         display: none;
     }
+}
 }

@@ -1,3 +1,10 @@
+.header-position{
+    position: sticky;
+}
+.btn-mi-color{
+    background-color: antiquewhite;
+    color: $color-dos;
+}
 .bg-custom{
     background-color: $color;
 }
@@ -13,3 +20,6 @@ li:hover{
     height: 3rem;
     width: 9rem;
 }
+.offcanvas {
+    background-color: #456C83;
+  }

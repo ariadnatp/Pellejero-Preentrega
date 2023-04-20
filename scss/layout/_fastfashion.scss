@@ -4,13 +4,15 @@
     text-align: center;
     background-color: $color;
     width: 100%;
-    height: 800px;
+    height: 100rem;
     background-position: center;
     background-position-y: 50%;
     background-size: contain;
     background-repeat: no-repeat;
     section{
         h1{
+            padding-top: 120px;
+            padding-bottom: 10px;
             color: $color-dos;
             font-family: 'Gowun Dodum', sans-serif;
             font-size: 5rem;
@@ -22,6 +24,7 @@
             align-items: center;  
         }
         p{
+          padding-bottom: 30px;
             margin-top: 2.5rem;
             margin-left: 2rem;
             margin-right: 2rem;
@@ -87,9 +90,12 @@ p {
     }
   }
   .card-flex{
-    display: inline;
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  .card{
+    width: 80%;
+    height: 100rem;
   }

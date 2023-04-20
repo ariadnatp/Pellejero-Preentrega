@@ -12,6 +12,15 @@ html {
 font-family: 'Gloock', serif; titulo
 fondo = 456C83
 */
+.header-position {
+  position: sticky;
+}
+
+.btn-mi-color {
+  background-color: antiquewhite;
+  color: #F4D7D3;
+}
+
 .bg-custom {
   background-color: #456C83;
 }
@@ -30,7 +39,26 @@ li:hover {
   width: 9rem;
 }
 
+.offcanvas {
+  background-color: #456C83;
+}
+
 /* pie */
+.footer-index div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #456C83;
+}
+.footer-index a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #456C83;
+}
+
 footer {
   width: 100%;
   height: 8rem;
@@ -114,13 +142,6 @@ footer {
   font-family: "Gowun Dodum", sans-serif;
   font-size: 2rem;
 }
-.main-index .cuadrado {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #456C83;
-}
 
 .main-catalogo {
   background-color: #456C83;
@@ -152,6 +173,7 @@ footer {
 }
 
 .carrusel-mobil {
+  padding-top: 80px;
   display: none;
 }
 
@@ -172,10 +194,10 @@ button:hover {
 }
 .main-nosotros {
   background-color: #456C83;
-  background-image: url(../assets/img/amigas.jpg);
+  background-image: url(../../assets/img/amigas.jpg);
   padding: 0% 5% 5% 5%;
   width: 100%;
-  height: 750px;
+  height: 70rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
@@ -187,20 +209,41 @@ button:hover {
   justify-content: start;
   align-items: center;
 }
-.main-nosotros .titulo-quien {
+.main-nosotros .div-quien {
+  padding-top: 100px;
+}
+.main-nosotros .div-quien h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 10rem;
-  color: white;
+  color: #7DB9B6;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 4rem;
   background-color: #e2e0e0;
   margin-top: 25px;
 }
-.main-nosotros div h1 {
+.main-nosotros div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.main-nosotros div h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30rem;
+  height: 8rem;
+  color: #7DB9B6;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 2rem;
+  background-color: #e2e0e0;
+  margin-top: 25px;
 }
 .main-nosotros div p {
   margin-top: 2.5rem;
@@ -319,13 +362,15 @@ p {
   text-align: center;
   background-color: #456C83;
   width: 100%;
-  height: 800px;
+  height: 100rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .main-fast section h1 {
+  padding-top: 120px;
+  padding-bottom: 10px;
   color: #F4D7D3;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 5rem;
@@ -337,6 +382,7 @@ p {
   align-items: center;
 }
 .main-fast section p {
+  padding-bottom: 30px;
   margin-top: 2.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -401,11 +447,15 @@ p {
   }
 }
 .card-flex {
-  display: inline;
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  width: 80%;
+  height: 100rem;
 }
 
 .main-flex-pp {
@@ -469,39 +519,36 @@ p {
   }
   .main-nosotros {
     background-color: #456C83;
-    background-image: url();
+    background-image: url(../asset/amigas-mobile.jpg);
     padding: 0% 5% 5% 5%;
     width: 100%;
-    height: 750px;
-    background-position: center;
-    background-position-y: 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 200rem;
+    /* beneficio */
+    /* nosotros */
   }
-  /* beneficio */
-  .main-beneficio {
+  .main-nosotros .main-beneficio {
     background-color: #456C83;
     width: 100%;
     height: 35rem;
   }
-  .main-beneficio section h1 {
+  .main-nosotros .main-beneficio section h1 {
     font-size: 3rem;
   }
-  .main-beneficio section p {
+  .main-nosotros .main-beneficio section p {
     margin-top: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
     text-indent: 5px;
   }
-  .lee {
+  .main-nosotros .lee {
     font-family: "Gowun Dodum", sans-serif;
     font-size: 1.2rem;
     color: #456C83;
     text-decoration: none;
     text-align: center;
   }
-  .cuadrado-fast {
+  .main-nosotros .cuadrado-fast {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -511,49 +558,33 @@ p {
     height: 5rem;
     background-color: #F4D7D3;
   }
-  /* nosotros */
-  .main-nosotros {
+  .main-nosotros .main-nosotros {
     background-image: url(../assets/img/amigas-mobile.json);
-    width: 100%;
-    height: 40rem;
+    height: 30px;
   }
-  .main-nosotros .titulo-quien {
-    width: 100%;
-    height: 5rem;
-    font-size: 3rem;
-    margin-top: 25px;
-  }
-  .main-nosotros div p {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-    text-indent: 5px;
-    text-align: center;
-  }
-  .main-fast h1 {
+  .main-nosotros .main-fast h1 {
     font-size: 5rem;
   }
-  .main-fast p {
+  .main-nosotros .main-fast p {
     margin-top: 2.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 1.2rem;
     text-indent: 20px;
   }
-  .main-fast article div {
+  .main-nosotros .main-fast article div {
     margin-top: 2rem;
     width: 650px;
     height: 100px;
   }
-  .main-fast article div ul li {
+  .main-nosotros .main-fast article div ul li {
     font-size: 1.2rem;
   }
-  .main-flex-pp div h1 {
+  .main-nosotros .main-flex-pp div h1 {
     font-size: 4rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) and (max-width: 425px) {
   nav {
     display: none;
   }
@@ -621,27 +652,30 @@ p {
     background-image: url(../asset/amigas-mobile.jpg);
     padding: 0% 5% 5% 5%;
     width: 100%;
-    height: 68rem;
+    height: 90rem;
     background-position: center;
     background-position-y: 50%;
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .main-nosotros .titulo-quien {
+  .main-nosotros .div-quien h1 {
     width: 100%;
     height: 5rem;
-    color: white;
-    font-family: "Gowun Dodum", sans-serif;
-    font-size: 1.6rem;
-    background-color: #e2e0e0;
-    margin-top: 25px;
+    font-size: 2rem;
+  }
+  .main-nosotros div h2 {
+    width: 10.9rem;
+    height: 5rem;
+    font-size: 1.5rem;
   }
   .main-nosotros div p {
-    margin-top: 0.5rem;
+    padding-bottom: 5px;
+    margin-top: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
-    text-indent: 5px;
+    position: center;
+    text-indent: 10px;
   }
   /* beneficio */
   .main-beneficio {
@@ -705,6 +739,26 @@ p {
   }
   .main-flex-pp div h1 {
     font-size: 2rem;
+  }
+}
+h1 {
+  opacity: 0;
+  animation: fade-in 3s ease forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+p {
+  opacity: 0;
+  animation: fade-in 2s ease forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
   }
 }
 
