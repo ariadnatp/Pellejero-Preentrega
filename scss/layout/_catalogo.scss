@@ -2,6 +2,32 @@
 .main-catalogo{
     background-color: #456C83;
 }
+.h1-edit{
+    @include h1-style;
+    padding-top: 80px;
+}
+.div-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        background-color: $color-dos;
+        text-align: center;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        width: 100%;
+        height: 10rem;
+    }
+}
+.carrusel{
+    height: 20rem;
+}
 .shop-now{
     padding-top: 20px;
     display: flex;
@@ -25,11 +51,31 @@
     border-radius: 2rem;
     border-width: 0.2rem;
 }
+/* productos */
+.prods{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-sizing: content-box;
+}
+.card-editt{
+    background-color: $color-dos;
+}
+.button-comprar{
+    background-color: $color;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border-bottom: #456C83;
+    font-size: 1.3rem;
+    color: $color-tres;
+}
+
 .carrusel-mobil{
     padding-top: 80px;
     display: none;
 }
-button:hover{
+.button:hover{
     transform: scale(1.1);
     transition: transform 0.5s ease;
 }

@@ -25,10 +25,6 @@ fondo = 456C83
   background-color: #456C83;
 }
 
-.navbar-boton {
-  color: #F4D7D3;
-}
-
 li:hover {
   color: #7DB9B6;
   text-decoration: underline;
@@ -143,8 +139,50 @@ footer {
   font-size: 2rem;
 }
 
+.navbar-botton {
+  color: #F4D7D3;
+  background-color: #F4D7D3;
+  border-bottom: #F4D7D3;
+}
+
 .main-catalogo {
   background-color: #456C83;
+}
+
+.h1-edit {
+  color: #F4D7D3;
+  font-family: "Gloock", serif;
+  font-size: 5rem;
+  letter-spacing: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.div-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div-p p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: #F4D7D3;
+  text-align: center;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  width: 100%;
+  height: 10rem;
+}
+
+.carrusel {
+  height: 20rem;
 }
 
 .shop-now {
@@ -173,12 +211,34 @@ footer {
   border-width: 0.2rem;
 }
 
+/* productos */
+.prods {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  box-sizing: content-box;
+}
+
+.card-editt {
+  background-color: #F4D7D3;
+}
+
+.button-comprar {
+  background-color: #456C83;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border-bottom: #456C83;
+  font-size: 1.3rem;
+  color: #7DB9B6;
+}
+
 .carrusel-mobil {
   padding-top: 80px;
   display: none;
 }
 
-button:hover {
+.button:hover {
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
@@ -211,28 +271,33 @@ button:hover {
   align-items: center;
 }
 .main-nosotros .div-quien {
-  padding-top: 90px;
+  padding-top: 120px;
 }
 .main-nosotros .div-quien h1 {
+  color: #F4D7D3;
+  font-family: "Gloock", serif;
+  font-size: 5rem;
+  letter-spacing: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7DB9B6;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #e2e0e0;
   width: 100%;
   height: 10rem;
-  color: #7DB9B6;
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 4rem;
-  background-color: #e2e0e0;
-  margin-top: 25px;
 }
-.main-nosotros div {
+.main-nosotros .div-obj {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.main-nosotros div h2 {
+.main-nosotros .div-obj h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,7 +311,7 @@ button:hover {
   background-color: #e2e0e0;
   margin-top: 25px;
 }
-.main-nosotros div p {
+.main-nosotros .div-obj p {
   margin-top: 2.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -277,11 +342,44 @@ p {
     opacity: 1;
   }
 }
+.accordion-button {
+  background-color: #F4D7D3;
+}
+
+.edit-uno {
+  margin-top: 30px;
+  width: 50rem;
+  position: center;
+}
+
+.edit-dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-tres {
+  background-color: #e2e0e0;
+}
+
+button.accordion-button {
+  background-color: #e2e0e0;
+  font-size: 1.5rem;
+  color: #7DB9B6;
+}
+
+.edit-cuatro {
+  background-color: #7DB9B6;
+  font-size: 1.5;
+  color: aquamarine;
+}
+
 /* beneficio*/
 .main-beneficio {
   box-sizing: content-box;
   text-align: center;
-  background-color: #456C83;
+  background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
   width: 100%;
   height: 800px;
   background-position: center;
@@ -289,20 +387,24 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.main-beneficio section {
+  padding-top: 50px;
+}
 .main-beneficio section h1 {
   padding-top: 120px;
-  color: antiquewhite;
-  font-family: "Gowun Dodum", sans-serif;
+  color: #F4D7D3;
+  font-family: "Gloock", serif;
   font-size: 5rem;
-  width: 100%;
-  height: 100px;
+  letter-spacing: 6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100px;
 }
 .main-beneficio section p {
-  padding-top: 20px;
+  padding-top: 30px;
   margin-top: 2.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -313,12 +415,26 @@ p {
   text-indent: 20px;
 }
 
+.ul-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ul-flex li {
+  display: inline-block;
+  gap: 20px;
+  text-decoration: none;
+}
+
 .lee {
   font-family: "Gowun Dodum", sans-serif;
   font-size: 2rem;
-  color: #456C83;
-  text-align: end;
+  color: #F4D7D3;
   text-decoration: none;
+  background-color: #456C83;
+  width: 100%;
 }
 
 .subrayado:hover {
@@ -326,17 +442,19 @@ p {
 }
 
 .cuadrado-fast {
-  margin-top: 3rem;
-  width: 50rem;
-  background-color: #F4D7D3;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
 }
 
-.img-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
+.inlinee {
+  display: inline-block;
+}
+
+.plantita {
+  margin-top: 5rem;
 }
 
 h1 {
@@ -363,32 +481,37 @@ p {
 .main-fast {
   box-sizing: content-box;
   text-align: center;
-  background-color: #456C83;
-  width: 100%;
-  height: 100rem;
+  background-image: linear-gradient(to bottom, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa, #a0c2aa, #bdc7a9, #d6cbb0, #e9d0c0, #f4d7d3);
+  height: 86rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
+.main-fast section {
+  padding-top: 70px;
+}
 .main-fast section h1 {
-  padding-top: 120px;
-  padding-bottom: 10px;
-  color: #F4D7D3;
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 100px;
+  height: 10rem;
+  color: #7DB9B6;
+  color: #F4D7D3;
+  font-family: "Gloock", serif;
+  font-size: 5rem;
+  letter-spacing: 6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .main-fast section p {
-  padding-bottom: 30px;
-  margin-top: 2.5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-bottom: 70px;
+  margin-left: 3rem;
+  margin-right: 3rem;
   color: #e2e0e0;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 1.2rem;
@@ -418,15 +541,15 @@ p {
 }
 .card-flex {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
-.card {
-  margin: 5% 5% 5% 5%;
-  width: 100%;
-  height: 100rem;
+.card-edit {
+  width: 500px;
+  height: 10rem;
 }
 
 .main-flex-pp {
@@ -534,11 +657,54 @@ p {
   }
   /* nosotros */
   .main-nosotros {
+    background-image: url(https://i.postimg.cc/D0MkHZRT/amigas-3.jpg);
     width: 100%;
-    height: 90rem;
+    height: 50rem;
+  }
+  .div-quien {
+    padding-top: 90px;
+  }
+  .div-quien h1 {
+    width: 100%;
+    height: 5rem;
+    color: #7DB9B6;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1rem;
+    background-color: #e2e0e0;
+    margin-top: 25px;
+  }
+  .div-obj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-obj h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30rem;
+    height: 8rem;
+    color: #7DB9B6;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 2rem;
+    background-color: #e2e0e0;
+    margin-top: 25px;
+  }
+  .div-obj p {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #e2e0e0;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1.2rem;
+    position: center;
+    text-indent: 20px;
   }
   .main-fast h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .main-fast p {
     margin-top: 2.5rem;
@@ -585,18 +751,8 @@ p {
   }
 }
 @media (max-width: 320px) {
-  .nav-desktop {
-    display: none;
-  }
-  .desaparecer {
-    display: block;
-  }
-  .redes-dropdown {
-    display: block;
-  }
   .main-index {
     background-image: url(https://i.postimg.cc/pTdmWP2N/fondomedio.jpg);
-    margin: 0px 0px 0px 0px;
     width: 100%;
     height: 50rem;
   }
@@ -607,19 +763,27 @@ p {
     font-size: 1.5rem;
   }
   /* catalogo */
-  .carrusel-mobil {
-    display: block;
-  }
-  .carrusel-desktop {
-    display: none;
-  }
   .text-shop-now {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .boton-edit {
     width: 10rem;
     height: 5rem;
     border-radius: 1rem;
+  }
+  .div-p p {
+    margin-top: 3rem;
+    background-color: #F4D7D3;
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    height: 10rem;
+  }
+  .h1-edit {
+    padding-top: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 2px;
   }
   /* nosotros */
   .main-nosotros {

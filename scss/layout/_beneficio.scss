@@ -2,7 +2,7 @@
 .main-beneficio{
     box-sizing: content-box;
     text-align: center;
-    background-color: $color;
+    background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
     width: 100%;
     height: 800px;
     background-position: center;
@@ -10,20 +10,15 @@
     background-size: contain;
     background-repeat: no-repeat;
     section{
+      padding-top: 50px;
         h1{
-            padding-top: 120px;
-            color: antiquewhite;
-            font-family: 'Gowun Dodum', sans-serif;
-            font-size: 5rem;
+          padding-top: 120px;
+            @include h1-style;
             width: 100%;
-            height: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            height: 100px; 
         }
         p{
-            padding-top: 20px;
+            padding-top: 30px;
             margin-top: 2.5rem;
             margin-left: 2rem;
             margin-right: 2rem;
@@ -35,27 +30,41 @@
         }
     }
 }
+.ul-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  li{
+    display: inline-block;
+    gap: 20px;
+    text-decoration: none;
+  }
+}
 .lee{
     font-family: 'Gowun Dodum', sans-serif;
     font-size: 2rem;
-    color: $color;
-    text-align: end;
+    color: $color-dos;  
     text-decoration: none;
+    background-color: $color;
+    width: 100%;
 }
 .subrayado:hover{
     color: $color-tres;
 }
 .cuadrado-fast{
-    margin-top: 3rem;
-    width: 50rem;
-    background-color: $color-dos ; 
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;   
 }
-.img-flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+.inlinee{
+  display: inline-block;
+}
+.plantita{
+    margin-top: 5rem;
 }
 h1 {
     opacity: 0;

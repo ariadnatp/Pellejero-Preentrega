@@ -3,6 +3,16 @@ $color-dos: #F4D7D3;
 $color-tres: #7DB9B6;
 $font:'Gloock', serif;
 $font-dos: 'Gowun Dodum', sans-serif;
+@mixin h1-style{
+    color: #F4D7D3;
+    font-family: 'Gloock', serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @import"./base/reset";
 @import"./base/typo";
 @import"./layout/header";
