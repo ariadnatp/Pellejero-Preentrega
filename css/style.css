@@ -159,6 +159,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .div-flex {
@@ -306,6 +307,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   color: #7DB9B6;
   display: flex;
   flex-direction: column;
@@ -412,6 +414,7 @@ button.accordion-button {
   justify-content: center;
   align-items: center;
   width: 100%;
+  width: 100%;
   height: 100px;
 }
 .main-beneficio div p {
@@ -507,6 +510,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .main-fast section p {
   padding-top: 30px;
@@ -640,6 +644,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     color: #7DB9B6;
     font-size: 3rem;
     background-color: #e2e0e0;
@@ -690,6 +695,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 2.7rem;
     letter-spacing: 2px;
   }
@@ -728,6 +734,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 3rem;
   }
   .main-fast section p {
@@ -777,6 +784,221 @@ p {
     display: none;
   }
 }
+@media (max-width: 375px) {
+  .main-index {
+    background-image: url(https://i.postimg.cc/pTdmWP2N/fondomedio.jpg);
+    width: 100%;
+    height: 50rem;
+  }
+  .titulo {
+    font-size: 4rem;
+  }
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+  /* catalogo */
+  .carrusel-desktop {
+    display: none;
+  }
+  .li-edit {
+    padding-left: 2px;
+  }
+  .text-shop-now {
+    font-size: 1rem;
+  }
+  .boton-edit {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1rem;
+  }
+  .h1-edit {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .div-flex {
+    padding-top: 90px;
+  }
+  .div-flex ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-flex ul li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .div-p p {
+    font-size: 0.8rem;
+  }
+  .planta {
+    padding: 0%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* nosotros */
+  .main-nosotros {
+    background-color: #456C83;
+    background-image: url(https://i.postimg.cc/7LgYC7F2/amigas-9.jpg);
+    height: 64.8rem;
+    padding-bottom: 8rem;
+  }
+  .main-nosotros .div-quien {
+    padding-top: 70px;
+  }
+  .main-nosotros .div-quien h1 {
+    margin-top: 1.2rem;
+    height: 5rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .main-nosotros .div-obj p {
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    text-indent: 10px;
+  }
+  .edit-tres {
+    background-color: #e2e0e0;
+  }
+  button.accordion-button {
+    background-color: #e2e0e0;
+    font-size: 1rem;
+    color: #7DB9B6;
+  }
+  .edit-cuatro {
+    background-color: #e2e0e0;
+    font-size: 1.5rem;
+    color: #7DB9B6;
+  }
+  .edit-cinco {
+    font-size: 1rem;
+  }
+  /* beneficio */
+  .main-beneficio {
+    height: 55rem;
+  }
+  .main-beneficio div {
+    padding-top: 50px;
+  }
+  .main-beneficio div h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .main-beneficio div p {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    position: center;
+    text-indent: 20px;
+  }
+  .main-beneficio .lee {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1rem;
+    color: #F4D7D3;
+    text-decoration: none;
+    background-color: #456C83;
+    width: 100%;
+    height: 3rem;
+  }
+  .main-beneficio .cuadrado-fast {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+  }
+  .main-beneficio .planta {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .main-fast {
+    height: 145rem;
+  }
+  .main-fast section {
+    padding-top: 85px;
+  }
+  .main-fast section h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .main-fast section p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    text-indent: 20px;
+  }
+  .main-fast .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .main-fast .card-edit {
+    width: 355px;
+    height: 40rem;
+  }
+}
+h1 {
+  opacity: 0;
+  animation: fade-in 3s ease forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+p {
+  opacity: 0;
+  animation: fade-in 2s ease forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 320px) {
   .main-index {
     background-image: url(https://i.postimg.cc/pTdmWP2N/fondomedio.jpg);
@@ -793,13 +1015,6 @@ p {
   .carrusel-desktop {
     display: none;
   }
-  .div-flex {
-    padding-top: 88px;
-  }
-  .div-flex ul li {
-    display: inline-block;
-    text-align: center;
-  }
   .li-edit {
     padding-left: 2px;
   }
@@ -812,10 +1027,31 @@ p {
     border-radius: 1rem;
   }
   .h1-edit {
-    padding-right: 1rem;
-    font-size: 1.5rem;
-    text-align: center;
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
     letter-spacing: 2px;
+  }
+  .div-flex {
+    padding-top: 90px;
+  }
+  .div-flex ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-flex ul li {
+    display: inline-block;
+    text-decoration: none;
   }
   .div-p p {
     font-size: 0.8rem;
@@ -884,6 +1120,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 1.6rem;
     letter-spacing: 2px;
   }
@@ -931,6 +1168,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 2rem;
     letter-spacing: 2px;
   }
