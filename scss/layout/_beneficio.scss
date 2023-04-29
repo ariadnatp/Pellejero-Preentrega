@@ -1,18 +1,16 @@
 /* beneficio*/
 .main-beneficio{
-    box-sizing: content-box;
     text-align: center;
     background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
     width: 100%;
-    height: 800px;
+    height: 80rem;
     background-position: center;
     background-position-y: 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    section{
-      padding-top: 50px;
+    div{
+      padding-top: 90px;
         h1{
-          padding-top: 120px;
             @include h1-style;
             width: 100%;
             height: 100px; 
@@ -54,17 +52,11 @@
     color: $color-tres;
 }
 .cuadrado-fast{
-  padding-top: 50px;
+  padding-top: 90px;
   display: flex;
   flex-direction: row;
   justify-content: end;
   align-items: end;   
-}
-.inlinee{
-  display: inline-block;
-}
-.plantita{
-    margin-top: 5rem;
 }
 h1 {
     opacity: 0;

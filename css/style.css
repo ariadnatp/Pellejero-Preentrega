@@ -158,7 +158,21 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+}
+
+.div-flex {
+  padding-top: 40px;
+}
+.div-flex ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.div-flex ul li {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .div-p {
@@ -233,6 +247,11 @@ footer {
   color: #7DB9B6;
 }
 
+.none {
+  text-decoration: none;
+  color: #7DB9B6;
+}
+
 .carrusel-mobil {
   padding-top: 80px;
   display: none;
@@ -258,7 +277,7 @@ footer {
   background-image: url(https://i.postimg.cc/R0ptygtL/amigas.jpg);
   padding: 0% 5% 5% 5%;
   width: 100%;
-  height: 58rem;
+  height: 60rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
@@ -291,25 +310,14 @@ footer {
   width: 100%;
   height: 10rem;
 }
+.main-nosotros .accordion-header {
+  --bs-accordion-active-bg: #7DB9B6;
+}
 .main-nosotros .div-obj {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.main-nosotros .div-obj h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 30rem;
-  height: 8rem;
-  color: #7DB9B6;
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 2rem;
-  background-color: #e2e0e0;
-  margin-top: 25px;
 }
 .main-nosotros .div-obj p {
   margin-top: 2.5rem;
@@ -365,33 +373,31 @@ p {
 
 button.accordion-button {
   background-color: #e2e0e0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #7DB9B6;
 }
 
 .edit-cuatro {
-  background-color: #7DB9B6;
-  font-size: 1.5;
-  color: aquamarine;
+  background-color: #e2e0e0;
+  font-size: 1.5rem;
+  color: #7DB9B6;
 }
 
 /* beneficio*/
 .main-beneficio {
-  box-sizing: content-box;
   text-align: center;
   background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
   width: 100%;
-  height: 800px;
+  height: 80rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.main-beneficio section {
-  padding-top: 50px;
+.main-beneficio div {
+  padding-top: 90px;
 }
-.main-beneficio section h1 {
-  padding-top: 120px;
+.main-beneficio div h1 {
   color: #F4D7D3;
   font-family: "Gloock", serif;
   font-size: 5rem;
@@ -403,7 +409,7 @@ button.accordion-button {
   width: 100%;
   height: 100px;
 }
-.main-beneficio section p {
+.main-beneficio div p {
   padding-top: 30px;
   margin-top: 2.5rem;
   margin-left: 2rem;
@@ -442,19 +448,11 @@ button.accordion-button {
 }
 
 .cuadrado-fast {
-  padding-top: 50px;
+  padding-top: 90px;
   display: flex;
   flex-direction: row;
   justify-content: end;
   align-items: end;
-}
-
-.inlinee {
-  display: inline-block;
-}
-
-.plantita {
-  margin-top: 5rem;
 }
 
 h1 {
@@ -481,8 +479,8 @@ p {
 .main-fast {
   box-sizing: content-box;
   text-align: center;
-  background-image: linear-gradient(to bottom, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa, #a0c2aa, #bdc7a9, #d6cbb0, #e9d0c0, #f4d7d3);
-  height: 86rem;
+  background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
+  height: 90rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
@@ -496,9 +494,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 10rem;
-  color: #7DB9B6;
   color: #F4D7D3;
   font-family: "Gloock", serif;
   font-size: 5rem;
@@ -509,14 +504,27 @@ p {
   align-items: center;
 }
 .main-fast section p {
-  padding-bottom: 70px;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  padding-top: 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
   color: #e2e0e0;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 1.2rem;
   position: center;
-  text-indent: 20px;
+}
+
+.ul-flex {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ul-flex li {
+  display: inline-block;
+  text-decoration: none;
 }
 
 h1 {
@@ -597,12 +605,6 @@ p {
   }
 }
 @media (max-width: 768px) {
-  .desaparecer {
-    display: none;
-  }
-  .redes-dropdown {
-    display: none;
-  }
   .main-index {
     background-image: url(https://i.postimg.cc/ZRDC0XRW/fondotablet.jpg);
     width: 100%;
@@ -616,115 +618,207 @@ p {
     width: 13rem;
     height: 6rem;
   }
-  .main-nosotros {
-    background-color: #456C83;
-    background-image: url(../asset/amigas-mobile.jpg);
-    padding: 0% 5% 5% 5%;
-    width: 100%;
-    height: 200rem;
-  }
-  /* beneficio */
-  .main-beneficio {
-    width: 100%;
-    height: 35rem;
-  }
-  .main-beneficio section h1 {
-    font-size: 3rem;
-  }
-  .main-beneficio section p {
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-    text-indent: 5px;
-  }
-  .lee {
-    font-family: "Gowun Dodum", sans-serif;
-    font-size: 1.2rem;
-    color: #456C83;
-    text-decoration: none;
-    text-align: center;
-  }
-  .cuadrado-fast {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-    width: 30rem;
-    height: 5rem;
-    background-color: #F4D7D3;
-  }
   /* nosotros */
   .main-nosotros {
     background-image: url(https://i.postimg.cc/D0MkHZRT/amigas-3.jpg);
-    width: 100%;
-    height: 50rem;
+    height: 43rem;
   }
-  .div-quien {
+  .main-nosotros .div-quien {
     padding-top: 90px;
   }
-  .div-quien h1 {
+  .main-nosotros .div-quien h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7DB9B6;
+    font-size: 3rem;
+    background-color: #e2e0e0;
+    display: flex;
     width: 100%;
-    height: 5rem;
-    color: #7DB9B6;
-    font-family: "Gowun Dodum", sans-serif;
-    font-size: 1rem;
-    background-color: #e2e0e0;
-    margin-top: 25px;
+    height: 6rem;
   }
-  .div-obj {
+  .main-nosotros .div-obj {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .div-obj h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 30rem;
-    height: 8rem;
-    color: #7DB9B6;
-    font-family: "Gowun Dodum", sans-serif;
-    font-size: 2rem;
-    background-color: #e2e0e0;
-    margin-top: 25px;
-  }
-  .div-obj p {
-    margin-top: 2.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+  .main-nosotros .div-obj p {
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
     color: #e2e0e0;
     font-family: "Gowun Dodum", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: center;
     text-indent: 20px;
   }
-  .main-fast h1 {
-    font-size: 3rem;
+  .edit-tres {
+    background-color: #e2e0e0;
   }
-  .main-fast p {
-    margin-top: 2.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+  button.accordion-button {
+    background-color: #e2e0e0;
     font-size: 1.2rem;
+    color: #7DB9B6;
+  }
+  .edit-cuatro {
+    background-color: #e2e0e0;
+    color: #7DB9B6;
+  }
+  .main-beneficio {
+    height: 80rem;
+  }
+  .main-beneficio div {
+    padding-top: 50px;
+  }
+  .main-beneficio div h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+  }
+  .main-beneficio div p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    position: center;
     text-indent: 20px;
   }
-  .main-fast article div {
-    margin-top: 2rem;
-    width: 650px;
-    height: 100px;
+  .ul-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
   }
-  .main-fast article div ul li {
-    font-size: 1.2rem;
+  .ul-flex li {
+    display: inline-block;
+    gap: 20px;
+    text-decoration: none;
   }
-  .main-flex-pp div h1 {
-    font-size: 4rem;
+  .lee {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .subrayado:hover {
+    color: #7DB9B6;
+  }
+  .cuadrado-fast {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
   }
 }
+.main-fast h1 {
+  font-size: 3rem;
+}
+.main-fast p {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  text-indent: 20px;
+}
+.main-fast article div {
+  margin-top: 2rem;
+  width: 650px;
+  height: 100px;
+}
+.main-fast article div ul li {
+  font-size: 1.2rem;
+}
+
+.main-flex-pp div h1 {
+  font-size: 4rem;
+}
+
+.main-beneficio {
+  box-sizing: content-box;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-position-y: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main-beneficio section {
+  padding-top: 90px;
+}
+.main-beneficio section h1 {
+  color: #F4D7D3;
+  font-family: "Gloock", serif;
+  font-size: 5rem;
+  letter-spacing: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.main-beneficio section p {
+  padding-top: 30px;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #e2e0e0;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 1.2rem;
+  position: center;
+  text-indent: 20px;
+}
+
+.ul-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ul-flex li {
+  display: inline-block;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.lee {
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 2rem;
+  color: #F4D7D3;
+  text-decoration: none;
+  background-color: #456C83;
+  width: 100%;
+}
+
+.subrayado:hover {
+  color: #7DB9B6;
+}
+
+.cuadrado-fast {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+
 @media (max-width: 425px) {
   nav {
     display: none;
@@ -763,6 +857,16 @@ p {
     font-size: 1.5rem;
   }
   /* catalogo */
+  .carrusel-desktop {
+    display: none;
+  }
+  .div-flex {
+    padding-top: 88px;
+  }
+  .div-flex ul li {
+    display: inline-block;
+    text-align: center;
+  }
   .text-shop-now {
     font-size: 1rem;
   }
@@ -771,49 +875,62 @@ p {
     height: 5rem;
     border-radius: 1rem;
   }
-  .div-p p {
-    margin-top: 3rem;
-    background-color: #F4D7D3;
-    text-align: center;
-    font-size: 1rem;
-    color: whitesmoke;
-    height: 10rem;
-  }
   .h1-edit {
-    padding-top: 15px;
+    padding-right: 1rem;
     font-size: 1.5rem;
     text-align: center;
     letter-spacing: 2px;
   }
+  .div-p p {
+    font-size: 0.8rem;
+  }
+  .planta {
+    padding: 0%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   /* nosotros */
   .main-nosotros {
     background-color: #456C83;
-    padding: 0% 5% 5% 5%;
-    width: 100%;
-    height: 80rem;
-    background-position: center;
-    background-position-y: 0%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(https://i.postimg.cc/7LgYC7F2/amigas-9.jpg);
+    height: 64.8rem;
+    padding-bottom: 8rem;
+  }
+  .main-nosotros .div-quien {
+    padding-top: 70px;
   }
   .main-nosotros .div-quien h1 {
-    width: 100%;
+    margin-top: 1.2rem;
     height: 5rem;
     font-size: 2rem;
+    letter-spacing: 2px;
   }
-  .main-nosotros div h2 {
-    width: 10.9rem;
-    height: 5rem;
-    font-size: 1.5rem;
-  }
-  .main-nosotros div p {
-    padding-bottom: 5px;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .main-nosotros .div-obj p {
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     font-size: 1rem;
-    position: center;
     text-indent: 10px;
+  }
+  .edit-tres {
+    background-color: #e2e0e0;
+  }
+  button.accordion-button {
+    background-color: #e2e0e0;
+    font-size: 1rem;
+    color: #7DB9B6;
+  }
+  .edit-cuatro {
+    background-color: #e2e0e0;
+    font-size: 1.5rem;
+    color: #7DB9B6;
+  }
+  .edit-cinco {
+    font-size: 0.7rem;
   }
   /* beneficio */
   .main-beneficio {

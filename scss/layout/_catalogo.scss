@@ -4,7 +4,20 @@
 }
 .h1-edit{
     @include h1-style;
-    padding-top: 80px;
+}
+.div-flex{
+    padding-top: 40px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        li{
+          display: inline-block;
+          text-decoration: none;
+        }
+    }
 }
 .div-p{
     display: flex;
@@ -70,7 +83,10 @@
     font-size: 1.3rem;
     color: $color-tres;
 }
-
+.none{
+    text-decoration: none;
+    color: $color-tres;
+}
 .carrusel-mobil{
     padding-top: 80px;
     display: none;
