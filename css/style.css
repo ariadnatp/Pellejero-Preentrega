@@ -147,6 +147,7 @@ footer {
 
 .main-catalogo {
   background-color: #456C83;
+  width: 100%;
 }
 
 .h1-edit {
@@ -173,6 +174,10 @@ footer {
 .div-flex ul li {
   display: inline-block;
   text-decoration: none;
+}
+
+.ul-edit {
+  align-items: center;
 }
 
 .div-p {
@@ -388,7 +393,7 @@ button.accordion-button {
   text-align: center;
   background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
   width: 100%;
-  height: 80rem;
+  height: 50rem;
   background-position: center;
   background-position-y: 50%;
   background-size: contain;
@@ -671,7 +676,7 @@ p {
     color: #7DB9B6;
   }
   .main-beneficio {
-    height: 80rem;
+    height: 40rem;
   }
   .main-beneficio div {
     padding-top: 50px;
@@ -696,130 +701,58 @@ p {
     position: center;
     text-indent: 20px;
   }
-  .ul-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .ul-flex li {
-    display: inline-block;
-    gap: 20px;
-    text-decoration: none;
-  }
-  .lee {
+  .main-beneficio .lee {
     font-family: "Gowun Dodum", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    color: #F4D7D3;
+    text-decoration: none;
+    background-color: #456C83;
     width: 100%;
   }
-  .subrayado:hover {
-    color: #7DB9B6;
-  }
-  .cuadrado-fast {
-    padding-top: 90px;
+  .main-beneficio .cuadrado-fast {
+    padding-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: end;
   }
+  .main-fast {
+    height: 80rem;
+  }
+  .main-fast section h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  .main-fast section p {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    text-indent: 20px;
+  }
+  .main-fast .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .main-fast .card-edit {
+    width: 355px;
+    height: 40rem;
+  }
+  .main-flex-pp div h1 {
+    font-size: 4rem;
+  }
 }
-.main-fast h1 {
-  font-size: 3rem;
-}
-.main-fast p {
-  margin-top: 2.5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 1.2rem;
-  text-indent: 20px;
-}
-.main-fast article div {
-  margin-top: 2rem;
-  width: 650px;
-  height: 100px;
-}
-.main-fast article div ul li {
-  font-size: 1.2rem;
-}
-
-.main-flex-pp div h1 {
-  font-size: 4rem;
-}
-
-.main-beneficio {
-  box-sizing: content-box;
-  text-align: center;
-  background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
-  width: 100%;
-  height: 800px;
-  background-position: center;
-  background-position-y: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.main-beneficio section {
-  padding-top: 90px;
-}
-.main-beneficio section h1 {
-  color: #F4D7D3;
-  font-family: "Gloock", serif;
-  font-size: 5rem;
-  letter-spacing: 6px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-}
-.main-beneficio section p {
-  padding-top: 30px;
-  margin-top: 2.5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  color: #e2e0e0;
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 1.2rem;
-  position: center;
-  text-indent: 20px;
-}
-
-.ul-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.ul-flex li {
-  display: inline-block;
-  gap: 20px;
-  text-decoration: none;
-}
-
-.lee {
-  font-family: "Gowun Dodum", sans-serif;
-  font-size: 2rem;
-  color: #F4D7D3;
-  text-decoration: none;
-  background-color: #456C83;
-  width: 100%;
-}
-
-.subrayado:hover {
-  color: #7DB9B6;
-}
-
-.cuadrado-fast {
-  padding-top: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: end;
-}
-
-@media (max-width: 425px) {
+@media (max-width: 768px) and (max-width: 425px) {
   nav {
     display: none;
   }
@@ -866,6 +799,9 @@ p {
   .div-flex ul li {
     display: inline-block;
     text-align: center;
+  }
+  .li-edit {
+    padding-left: 2px;
   }
   .text-shop-now {
     font-size: 1rem;
@@ -934,54 +870,87 @@ p {
   }
   /* beneficio */
   .main-beneficio {
-    height: 900px;
+    height: 55rem;
   }
-  .main-beneficio section h1 {
-    font-size: 3rem;
+  .main-beneficio div {
+    padding-top: 50px;
   }
-  .main-beneficio section p {
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-    text-indent: 5px;
-  }
-  .lee {
-    font-family: "Gowun Dodum", sans-serif;
-    font-size: 1.2rem;
-    color: #456C83;
-    text-align: center;
-    text-decoration: none;
-  }
-  .cuadrado-fast {
-    margin-top: 2rem;
-    width: 17rem;
-    height: 5.2rem;
-    background-color: #F4D7D3;
-  }
-  .img-flex {
+  .main-beneficio div h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    align-items: center;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+  .main-beneficio div p {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    position: center;
+    text-indent: 20px;
+  }
+  .main-beneficio .lee {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 0.9rem;
+    color: #F4D7D3;
+    text-decoration: none;
+    background-color: #456C83;
+    width: 100%;
+    height: 3rem;
+  }
+  .main-beneficio .cuadrado-fast {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+  }
+  .main-beneficio .planta {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .main-fast {
-    background-color: #456C83;
-    height: 60rem;
+    height: 145rem;
   }
-  .main-fast h1 {
-    font-size: 2.5rem;
+  .main-fast section h1 {
+    color: #F4D7D3;
+    font-family: "Gloock", serif;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
   }
-  .main-fast p {
-    margin-top: 0.5rem;
+  .main-fast section p {
+    margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
-    text-indent: 5px;
+    text-indent: 20px;
   }
-  .main-flex-pp div h1 {
-    font-size: 2rem;
+  .main-fast .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .main-fast .card-edit {
+    width: 355px;
+    height: 40rem;
   }
 }
 h1 {
