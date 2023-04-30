@@ -1,13 +1,11 @@
-@media (max-width: 2560px){
-    .desaparecer{
-        display: none;
-    }
-    .redes-dropdown{
-        display: none;
-    }
-}
+
 @media (max-width: 1024px){
-    .desaparecer{
-        display: none;
+    .main-fast{
+        height: 90rem;
     }
+    .card-edit{
+        width: 400px;
+        height: 10rem;
+    }
+    
 }

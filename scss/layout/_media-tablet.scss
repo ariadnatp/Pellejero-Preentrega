@@ -1,6 +1,6 @@
 @media (max-width:768px){
     .main-index{
-        background-image: url(https://i.postimg.cc/ZRDC0XRW/fondotablet.jpg);
+        background-image: url(https://i.postimg.cc/NG2Ppp3r/fondoo-5.jpg);
         width: 100%;
         height: 40rem;
     }
@@ -15,7 +15,7 @@
 
     /* nosotros */
     .main-nosotros{
-        background-image: url(https://i.postimg.cc/D0MkHZRT/amigas-3.jpg);
+        background-image: url(https://i.postimg.cc/L6tqBFvQ/amigas-10.jpg);
         height: 43rem;
         .div-quien{
             padding-top: 90px;
@@ -122,13 +122,20 @@
         height: 40rem;
       }
 }
-
-    .main-flex-pp{
-        div{
-            h1{
-                font-size: 4rem;
-            }
+.main-flex-pp{
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            text-align: center;
+            padding-top: 120px;
+            font-size: 4rem;
+            color: $color-dos;
         }
     }
+}
+
 
 }
