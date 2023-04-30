@@ -131,30 +131,4 @@
         }
     }
 
-
-@media (max-width:425px){
-    nav{
-        display: none;
-    }
-    .desaparecer{
-        display: block;
-    }
-    .main-index{
-        background-image: url(../assets/img/fondomedio.jpg);
-        width: 100%;
-        height: 50rem;
-    }
-    .titulo{
-        font-size: 4.5rem;
-    }
-    .subtitulo{
-        font-size: 2rem;
-    }
-    .text-shop-now{
-        font-size: 0.5;
-    }
-    .carrusel-media{
-        display: none;
-    }
-}
 }
