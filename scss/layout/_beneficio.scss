@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     div{
       padding-top: 90px;
+      padding-left: 0;
         h1{
             @include h1-style;
             width: 100%;
@@ -29,6 +30,7 @@
     }
 }
 .ul-flex{
+  padding-left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;

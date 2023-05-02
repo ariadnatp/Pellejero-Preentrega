@@ -166,6 +166,7 @@ footer {
   padding-top: 40px;
 }
 .div-flex ul {
+  padding-left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -358,7 +359,7 @@ p {
 }
 
 .edit-uno {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 50rem;
   position: center;
 }
@@ -399,6 +400,7 @@ button.accordion-button {
 }
 .main-beneficio div {
   padding-top: 90px;
+  padding-left: 0;
 }
 .main-beneficio div h1 {
   color: #F4D7D3;
@@ -426,6 +428,7 @@ button.accordion-button {
 }
 
 .ul-flex {
+  padding-left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -621,7 +624,7 @@ p {
   }
   /* nosotros */
   .main-nosotros {
-    background-image: url(https://i.postimg.cc/L6tqBFvQ/amigas-10.jpg);
+    background-image: url(https://i.postimg.cc/R0ptygtL/amigas.jpg);
     height: 43rem;
   }
   .main-nosotros .div-quien {
@@ -659,6 +662,9 @@ p {
     font-size: 1rem;
     position: center;
     text-indent: 20px;
+  }
+  .edit-uno {
+    margin-top: 2px;
   }
   .edit-tres {
     background-color: #e2e0e0;
@@ -762,9 +768,9 @@ p {
 }
 @media (max-width: 425px) {
   .main-index {
-    background-image: url(https://i.postimg.cc/hPW1jfFw/fondotablet-1.jpg);
+    background-image: url(https://i.postimg.cc/TYLX9hYb/fondoo-6-1.jpg);
     width: 100%;
-    height: 50rem;
+    height: 45rem;
   }
   .titulo {
     font-size: 4rem;
@@ -839,7 +845,7 @@ p {
     margin-top: 0.4rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-indent: 10px;
   }
   .edit-tres {
@@ -898,7 +904,7 @@ p {
     align-items: end;
   }
   .main-fast {
-    height: 145rem;
+    height: 138rem;
   }
   .main-fast section {
     padding-top: 85px;
@@ -931,7 +937,7 @@ p {
   }
   .main-fast .card-edit {
     width: 355px;
-    height: 45rem;
+    height: 41rem;
   }
   .main-flex-pp div {
     display: flex;
@@ -969,12 +975,11 @@ p {
 @media (max-width: 375px) {
   .main-nosotros {
     background-color: #456C83;
-    background-image: url(https://i.postimg.cc/d1W0SJgw/amigas-12.jpg);
-    height: 65rem;
+    background-image: url(https://i.postimg.cc/NG2Ppp3r/fondoo-5.jpg);
+    height: 55rem;
   }
   .div-obj p {
-    font-size: 1rem;
-    text-indent: 20px;
+    font-size: 0.7rem;
   }
   .edit-tres {
     background-color: #e2e0e0;
@@ -1015,7 +1020,7 @@ p {
     font-size: 0.9rem;
   }
   .main-fast {
-    height: 150rem;
+    height: 138rem;
   }
   .main-fast section h1 {
     color: #F4D7D3;
@@ -1046,12 +1051,12 @@ p {
   }
   .main-fast .card-edit {
     width: 320px;
-    height: 45rem;
+    height: 40rem;
   }
 }
 @media (max-width: 320px) {
   .main-index {
-    background-image: url(https://i.postimg.cc/pTdmWP2N/fondomedio.jpg);
+    background-image: url(https://i.postimg.cc/pLBkw7g7/fondoo-4.jpg);
     width: 100%;
     height: 50rem;
   }
@@ -1086,8 +1091,8 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 23px;
-    letter-spacing: 2px;
+    font-size: 30px;
+    letter-spacing: 1px;
   }
   .div-flex {
     padding-top: 90px;
@@ -1197,7 +1202,7 @@ p {
   }
   .main-fast .card-edit {
     width: 280px;
-    height: 40rem;
+    height: 42rem;
   }
 }
 h1 {
