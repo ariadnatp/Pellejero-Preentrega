@@ -107,7 +107,6 @@ footer {
   font-weight: 400;
 }
 
-/* index */
 .main-index {
   background-color: #456C83;
   background-image: url(https://i.postimg.cc/HncjM3cB/fondoo.jpg);
@@ -119,7 +118,7 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.main-index section div {
+.main-index div {
   width: 100%;
   height: 50rem;
   line-height: 70px;
@@ -128,12 +127,12 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.main-index section div h1 {
+.main-index div h1 {
   color: #7DB9B6;
   font-family: "Gloock", serif;
   font-size: 5rem;
 }
-.main-index section div h2 {
+.main-index div h2 {
   color: #F4D7D3;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 2rem;
@@ -228,7 +227,6 @@ footer {
   border-width: 0.2rem;
 }
 
-/* productos */
 .prods {
   margin-top: 5rem;
   margin-left: 2rem;
@@ -482,7 +480,6 @@ p {
     opacity: 1;
   }
 }
-/* fast fashion */
 .main-fast {
   box-sizing: content-box;
   text-align: center;
@@ -1051,7 +1048,7 @@ p {
   }
   .main-fast .card-edit {
     width: 320px;
-    height: 40rem;
+    height: 42rem;
   }
 }
 @media (max-width: 320px) {

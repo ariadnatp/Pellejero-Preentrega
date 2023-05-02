@@ -1,101 +1,96 @@
-
 .main-nosotros{
-    background-color: $color;
-    background-image: url(https://i.postimg.cc/R0ptygtL/amigas.jpg);
-    padding: 0% 5% 5% 5%;
-    width: 100%;
-    height: 60rem;
-    background-position: center;
-    background-position-y: 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    .nosotros-flex{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-    }
-    .div-quien{
-      padding-top: 120px;
-        h1{
-            @include h1-style;
-            color: $color-tres;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #e2e0e0;
-            width: 100%;
-            height: 10rem; 
-        }
-    }
-    .accordion-header{
-      --bs-accordion-active-bg: #7DB9B6;
-    }
-    .div-obj{
+  background-color: $color;
+  background-image: url(https://i.postimg.cc/R0ptygtL/amigas.jpg);
+  padding: 0% 5% 5% 5%;
+  width: 100%;
+  height: 60rem;
+  background-position: center;
+  background-position-y: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .nosotros-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .div-quien{
+    padding-top: 120px;
+    h1{
+      @include h1-style;
+      color: $color-tres;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      p{
-        margin-top: 2.5rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        color: #e2e0e0;
-        font-family: 'Gowun Dodum', sans-serif;
-        font-size: 1.2rem;
-        position: center;
-        text-indent: 20px;
-      }
+      background-color: #e2e0e0;
+      width: 100%;
+      height: 10rem;
     }
-
+  }
+  .accordion-header{
+    --bs-accordion-active-bg: #7DB9B6;
+  }
+  .div-obj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+      margin-top: 2.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      color: #e2e0e0;
+      font-family: 'Gowun Dodum', sans-serif;
+      font-size: 1.2rem;
+      position: center;
+      text-indent: 20px;
+    }
+  }
 }
 h1 {
-    opacity: 0;
-    animation: fade-in 3s ease forwards;
+  opacity: 0;
+  animation: fade-in 3s ease forwards;
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
   }
-  
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-    }
+}
+p{
+  opacity: 0;
+  animation: fade-in 2s ease forwards;
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
   }
-
-p {
-    opacity: 0;
-    animation: fade-in 2s ease forwards;
-  }
-  
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-    }
-  }
-  .accordion-button{
-    background-color: $color-dos;
-  }
-  .edit-uno{
-   margin-top: 20px;
-   width: 50rem;
-   position: center;
-  }
-  .edit-dos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .edit-tres{
-    background-color: #e2e0e0;
-  }
-  button.accordion-button {
-    background-color: #e2e0e0;
-    font-size: 2rem;
-    color: $color-tres;
-  }
-  .edit-cuatro{
-    background-color: #e2e0e0;
-    font-size: 1.5rem;
-    color: $color-tres;
-  } 
+}
+.accordion-button{
+  background-color: $color-dos;
+}
+.edit-uno{
+  margin-top: 20px;
+  width: 50rem;
+  position: center;
+}
+.edit-dos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.edit-tres{
+  background-color: #e2e0e0;
+}
+button.accordion-button {
+  background-color: #e2e0e0;
+  font-size: 2rem;
+  color: $color-tres;
+}
+.edit-cuatro{
+  background-color: #e2e0e0;
+  font-size: 1.5rem;
+  color: $color-tres;
+} 
   

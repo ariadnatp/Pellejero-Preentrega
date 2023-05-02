@@ -12,73 +12,55 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/img/planta.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- fuentes en general -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-    <!-- fuente de titulo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Gowun+Dodum&display=swap" rel="stylesheet">
-    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-      <!-- navbar -->
-      <nav class="navbar bg-custom fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img src="./assets/img/attico.png" alt="logo" class="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Indice - Inicio</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 flex-sm-grow-0 w-100 w-sm-50 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/catalogo.html">Catálogo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="./pages/beneficio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Por que comprarnos?
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./pages/beneficio.html">Beneficio</a></li>
-                    <li><a class="dropdown-item" href="./pages/fast-fashio.html">Problematica: Fast Fashion</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://linktr.ee/aritriny" target="_blank">Visitanos en nuestras redes!</a>
-                </li>
-            </div>
+  <header>
+    <nav class="navbar bg-custom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/img/attico.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Indice - Inicio</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 flex-sm-grow-0 w-100 w-sm-50 pe-3">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pages/catalogo.html">Catálogo</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./pages/beneficio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Por que comprarnos?</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/beneficio.html">Beneficio</a></li>
+                  <li><a class="dropdown-item" href="./pages/fast-fashio.html">Problematica: Fast Fashion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://linktr.ee/aritriny" target="_blank">Visitanos en nuestras redes!</a></li>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- cuerpo -->
-    <main class="main-index">
-        <section>
-            <div>
-              <h1>attico</h1>
-              <h2>second hand</h2>
-            </div>
-        </section>
-    </main>
-    <footer class="footer-index">
-        <div>
-          <a href="./pages/catalogo.html"><img src="https://i.postimg.cc/7ZvJ3vN7/flecha.png" alt="flecha" class="flecha"></a>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+      </div>
+    </nav>
+  </header>
+  <main class="main-index">
+    <div>
+      <h1>attico</h1>
+      <h2>second hand</h2>
+    </div>
+  </main>
+  <footer class="footer-index">
+    <div>
+      <a href="./pages/catalogo.html"><img src="https://i.postimg.cc/7ZvJ3vN7/flecha.png" alt="flecha" class="flecha"></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
