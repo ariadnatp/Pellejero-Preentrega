@@ -1,33 +1,33 @@
 /* beneficio*/
 .main-beneficio{
-    text-align: center;
-    background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
-    width: 100%;
-    height: 50rem;
-    background-position: center;
-    background-position-y: 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    div{
-      padding-top: 90px;
-      padding-left: 0;
-        h1{
-            @include h1-style;
-            width: 100%;
-            height: 100px; 
-        }
-        p{
-            padding-top: 30px;
-            margin-top: 2.5rem;
-            margin-left: 2rem;
-            margin-right: 2rem;
-            color: #e2e0e0;
-            font-family: 'Gowun Dodum', sans-serif;
-            font-size: 1.2rem;
-            position: center;
-            text-indent: 20px;
-        }
+  text-align: center;
+  background-image: linear-gradient(to bottom, #456c83, #456c83, #456c83, #548999, #5e97a2, #6aa6ab, #79b0aa, #8cb9aa);
+  width: 100%;
+  height: 50rem;
+  background-position: center;
+  background-position-y: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  div{
+    padding-top: 90px;
+    padding-left: 0;
+    h1{
+      @include h1-style;
+      width: 100%;
+      height: 100px; 
     }
+    p{
+    padding-top: 30px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #e2e0e0;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 1.2rem;
+    position: center;
+    text-indent: 20px;
+    }
+  }
 }
 .ul-flex{
   padding-left: 0;
@@ -64,18 +64,15 @@ h1 {
     opacity: 0;
     animation: fade-in 3s ease forwards;
   }
-  
   @keyframes fade-in {
     100% {
       opacity: 1;
     }
   }
-
 p {
     opacity: 0;
     animation: fade-in 2s ease forwards;
   }
-  
   @keyframes fade-in {
     100% {
       opacity: 1;
